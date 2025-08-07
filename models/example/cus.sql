@@ -1,2 +1,0 @@
-select * from JOINS_IN_SQL.JOINS_SCHEMA.CUSTOMERS
-where COUNTRY='USA'
