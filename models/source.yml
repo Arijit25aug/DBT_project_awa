@@ -5,7 +5,8 @@ sources:
     database: DBT_PROJECT_DB_AWA  #NAME OF THE DATABASE
     schema: RAW_SCHEMA #NAME OF THE SCHEMA
     tables:
-      - name: RAW_CUSTOMERS #CUSTOMERS DETAILS
+      - name: cust #name used here
+        identifier: RAW_CUSTOMERS # original table name
       - name: RAW_ORDER_ITEMS #ORDER_ITEM DETAILS
       - name: RAW_ORDERS #ORDER DETAILS
       - name: RAW_PAYMENTS #PAYMENT DETAILS
